@@ -1,0 +1,409 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+  background-color: #ededed;
+}
+
+#navbar {
+    background-color: #f85606;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+}
+
+/* nav top links  */
+
+#nav-link {
+    background-color: #f85606;
+    width: 100%;
+    height: 5%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+#nav-link a:hover {
+    color: #ffaa7f;
+}
+
+a {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    font-size: 12px;
+    padding-right: 37px;
+    display: inline;
+
+}
+
+#lang {
+    padding-right: 80px;
+}
+
+/* Nav home for logo, search, cart  */
+
+#nav-home {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 11px 0px 0px 0px;
+    width: 100%;
+    height: 90px;
+
+
+}
+
+#darazlogo {
+    width: 200px;
+    height: 40px;
+    padding-right: 20px;
+    
+}
+
+#darazlogo img {
+    width: 80%;
+    object-fit: cover;
+}
+
+input {
+    height: 45px;
+    width: 640px;
+    flex: 1;
+    padding: 0 20px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+#search-icon {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 219, 201);
+    color: #f85606;
+    width: 45px;
+    height: 45px;
+    padding: 0px 10px;
+    border-radius: 0 3px 3px 0;
+
+}
+
+/* Cart CSS  */
+
+#cart-icon {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    /* padding: 0px 10px; */
+    margin-left: 25px;
+}
+
+#cart-icon a{
+        color: white;
+}
+
+#cart-icon a:hover {
+    color: #ffaa7f;
+}
+
+#topright {
+    height: 45px;
+    width: 330px;
+    /* margin-right: 10px; */
+}
+
+
+
+/* ___________________________________________________________________________________________ */
+/* Main Body  */
+
+
+#topbanner {
+    width: 100%;
+    height: 350px;
+    margin-top: 115px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+
+#banner {
+  width: 90%;
+  max-width: 980px;
+  height: 100%;
+  /* margin: auto; */
+  overflow: hidden;
+
+
+
+}
+
+#imgslide {
+    height: 100%;
+    background-color: red;
+    display: flex;
+    width: 300%;
+    animation: slide 15s infinite;
+}
+
+#imgslide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0; 
+    flex: 0 0 33.333%; 
+}
+
+/* Animation */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    30% { transform: translateX(-33.333%); }
+    55% { transform: translateX(-33.333%); }
+    60% { transform: translateX(-66.666%); }
+    85% { transform: translateX(-66.666%); }
+    90% { transform: translateX(0%); }
+    100% { transform: translateX(0%); }
+}
+
+
+#app-qr {
+    height: 100%;
+    width: 15%;
+    background-color: blue;
+    object-fit: cover;
+}
+
+#app-qr img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/* Second Body  Products Lists */
+p {
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 8%;
+    padding: 20px 0 10px;
+
+}
+
+/* items box  */
+/* ---------------------------------------------------------------- */
+
+#Productlist-BG {
+    width: 100%;
+    height: 500px;
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+}
+
+#items {
+    width: 83%;
+    height: 380px;
+    /* padding-bottom: 20px;
+    margin-bottom: 20px; */
+    background-color: white;
+    /* display: flex; */
+}
+
+#texts {
+    Height: 60px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    border-bottom: solid 0.5px grey;
+    margin-bottom: 10px;
+
+}
+
+/* on sale now  */
+#sale-text {
+    width: 200px;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+
+
+}
+
+#sale-text p {
+    text-transform: capitalize; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #f85606;
+}
+
+
+
+/* Shop all product  */
+#shop-product-text {
+    width: 180px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #f85606;
+    margin: 5px;
+    margin-left: auto;
+    padding: 0px 5px;
+
+}
+
+#shop-product-text a{
+    color: #f85606;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*  images of products  */
+
+#product-items {
+    /* height:190px; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 0px 10px;
+    gap: 10px;
+    
+}
+
+.card {
+    width: 200px;
+
+}
+
+.card:hover {
+    width: 201px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit:cover;
+
+
+}
+
+/* ----------texts of images price name etc..----------- */
+
+.title {
+    padding: 0;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.price {
+    padding: 0;
+    margin: 0;
+  color: #f57224;
+  font-weight: bold;
+}
+
+.old-price {
+    padding: 0;
+    margin: 0;
+  color: gray;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Footer */
+
+
+#footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color:  #f4f4f6; /* Change to #f4f4f6 for the original look */
+  padding: 30px 50px;
+  font-family: sans-serif;
+}
+
+/* Shared column styles */
+.footer-text {
+  flex: 1; /* Allows columns to share space equally */
+}
+
+.footer-text h3 {
+  color: #0a1471;
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.footer-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-text li {
+  margin-bottom: 1px; /* Tight vertical gap */
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #0a1471;
+  font-size: 12px;
+  display: block; 
+  transition: color 0.3s ease;
+  text-transform: capitalize; /* Matches the Daraz style image */
+
+  line-height: .1; 
+  padding: 0px;
+
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+
+/* Image section - keeps it to the right */
+#download-footer-box {
+  flex: 1.5; /* Gives slightly more room to the image side */
+  text-align: right;
+}
+
+#download-footer-box img {
+  max-width: 100%;
+  height: auto;
+}
