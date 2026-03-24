@@ -20,8 +20,8 @@ This project is created for learning and practice purposes.
 
 ## 📸 Screenshot
 
-![Daraz Clone Screenshot 1](daraz-ss-1.png)
-![Daraz Clone Screenshot 2](daraz-ss-2.png)
+![Daraz Clone Screenshot 1](image/daraz-ss-1.png)
+![Daraz Clone Screenshot 2](image/daraz-ss-2.png)
 
 ---
 
