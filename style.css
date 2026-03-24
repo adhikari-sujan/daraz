@@ -227,10 +227,8 @@ p {
 #items {
     width: 83%;
     height: 380px;
-    /* padding-bottom: 20px;
-    margin-bottom: 20px; */
     background-color: white;
-    /* display: flex; */
+
 }
 
 #texts {
@@ -292,7 +290,6 @@ p {
 /*  images of products  */
 
 #product-items {
-    /* height:190px; */
     width: 100%;
     background-color: white;
     display: flex;
