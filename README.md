@@ -1,7 +1,7 @@
 # 🛒 Daraz Clone (HTML & CSS)
 
 A simple clone of the Daraz homepage built using only HTML and CSS.  
-This project is created for learning and practice purposes.
+This project is created for learning and practice purposes only.
 
 ---
 
@@ -19,6 +19,13 @@ This project is created for learning and practice purposes.
 ---
 
 ## 📸 Screenshot
+
+## Real Daraz Website
+
+![Daraz Clone Screenshot 1](image/real_daraz.png)
+
+
+## My Clone Website
 
 ![Daraz Clone Screenshot 1](image/daraz-ss-1.png)
 ![Daraz Clone Screenshot 2](image/daraz-ss-2.png)
